@@ -1,8 +1,8 @@
-# matrix-synapse
+# jellyfin
 
-This repository contains a customized version of [jellyfin/jellyfin](https://hub.docker.com/r/jellyfin/jellyfin) ([GitHub](https://github.com/jellyfin/jellyfin)). This image contains a modified frontend containing the skip intro button.
+This repository contains a customized version of the [jellyfin/jellyfin](https://hub.docker.com/r/jellyfin/jellyfin) ([GitHub](https://github.com/jellyfin/jellyfin)) docker image. The image includes a modified frontend required for the skip intro button feature.
 
-The source code for this plugin can be found here: [ConfusedPolarBear/intro-skipper](https://github.com/ConfusedPolarBear/intro-skipper)
+The source code for this feature can be found here: [ConfusedPolarBear/intro-skipper](https://github.com/ConfusedPolarBear/intro-skipper)
 
 The changes can be viewed inside the `Dockerfile`. 
 
