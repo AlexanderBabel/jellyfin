@@ -33,7 +33,7 @@ jobs:
 
       - name: Retrieve version
         id: version
-        run: echo ::set-output name=version::$(sed -nr 's/^FROM.*:(.*)/\1/p' Dockerfile)
+        run: echo ::set-output name=version::$(sed -nr 's/^FROM jellyfin.*:(.*)/\1/p' Dockerfile)
 
       - name: Docker meta
         id: meta
