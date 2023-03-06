@@ -39,7 +39,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: alexbabel/jellyfin,ghcr.io/alexanderbabel/jellyfin
+          images: alexbabel/jellyfin
           tags: |
             ${{ steps.version.outputs.version }}
             latest
