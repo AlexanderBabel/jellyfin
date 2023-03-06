@@ -1,3 +1,7 @@
+# IMPORTANT
+
+This project has been moved! It is now available here: [AlexanderBabel/custom-images](https://github.com/AlexanderBabel/custom-images)
+
 # jellyfin
 
 This repository contains a customized version of the [jellyfin/jellyfin](https://hub.docker.com/r/jellyfin/jellyfin) ([GitHub](https://github.com/jellyfin/jellyfin)) docker image. The image includes a modified frontend required for the skip intro button feature.
